@@ -1,0 +1,3 @@
+workspace: prod-us
+environment: production
+region: us-west-1

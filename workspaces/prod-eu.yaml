@@ -1,0 +1,3 @@
+workspace: prod-eu
+environment: production
+region: eu-west-1

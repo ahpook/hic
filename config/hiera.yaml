@@ -1,0 +1,15 @@
+---
+version: 5
+defaults:
+  datadir: ../data
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "Team-specific overrides"
+    path: "teams/%{team}.yaml"
+  - name: "Environment-specific data"
+    path: "environments/%{environment}.yaml"
+  - name: "Data that varies by cloud region"
+    path: "regions/%{region}.yaml"
+  - name: "Fall through defaults"
+    path: "defaults.yaml"

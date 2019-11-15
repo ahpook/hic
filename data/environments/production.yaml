@@ -1,0 +1,4 @@
+instances:
+  auth: 10
+  web: 30
+  db: 3

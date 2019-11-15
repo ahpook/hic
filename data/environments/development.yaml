@@ -1,0 +1,4 @@
+instances:
+  auth: 3
+  web: 3
+  db: 1
