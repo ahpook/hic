@@ -1,2 +1,5 @@
 instances:
   auth: 1
+workflows:
+  deployment:
+    strategy: canary
